@@ -1,0 +1,21 @@
+.currentTime {
+    border: 1px solid red;
+    block-size: 0.1px;
+    background: var(--red10);
+    inline-size: 6.5rem;
+    position: absolute;
+    inset-inline-start: 140px;
+    inset-block-start: 200px;
+    z-index: 2;
+}
+
+.currentTime::before {
+    content: "";
+    display: block;
+    inline-size: 1rem;
+    block-size: 1rem;
+    background: var(--red10);
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+

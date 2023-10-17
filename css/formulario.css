@@ -1,0 +1,27 @@
+.formulario {
+    /* border: 1px solid red; */
+    position: relative;
+    border-radius: 4px;
+   
+}
+
+.formulario .buscar i{
+    /* background: red; */
+    padding-inline-start: 1rem;
+    color: var(--gray50);
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.formulario input{
+    background: var(--gray10);
+    block-size: 2.5rem;
+    padding-inline: 40px ;
+    max-inline-size: 12.25rem;
+    font: var(--body1-regular);
+    border: none;
+    box-sizing: border-box;
+   
+    
+}

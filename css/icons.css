@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?1rp1ja');
+    src:  url('../fonts/icomoon.eot?1rp1ja#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?1rp1ja') format('truetype'),
+      url('../fonts/icomoon.woff?1rp1ja') format('woff'),
+      url('../fonts/icomoon.svg?1rp1ja#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-IconCalendar:before {
+    content: "\e900";
+  }
+  .icon-IconCheck:before {
+    content: "\e901";
+  }
+  .icon-IconCheckSquare:before {
+    content: "\e902";
+  }
+  .icon-IconChevronDown:before {
+    content: "\e903";
+  }
+  .icon-IconChevronUp:before {
+    content: "\e904";
+  }
+  .icon-IconClock:before {
+    content: "\e905";
+  }
+  .icon-IconClose:before {
+    content: "\e906";
+  }
+  .icon-IconGps:before {
+    content: "\e907";
+  }
+  .icon-IconHamburguerButton:before {
+    content: "\e908";
+  }
+  .icon-IconHelpCircle:before {
+    content: "\e909";
+  }
+  .icon-IconPlus:before {
+    content: "\e90a";
+  }
+  .icon-IconSearch:before {
+    content: "\e90b";
+  }
+  .icon-IconSettings:before {
+    content: "\e90c";
+  }
+  .icon-IconText:before {
+    content: "\e90d";
+  }
+  .icon-IconUsers:before {
+    content: "\e90e";
+  }
+  .icon-IconVideo:before {
+    content: "\e90f";
+  }
+  .icon-mayor:before {
+    content: "\e910";
+  }
+  .icon-menor:before {
+    content: "\e911";
+  }
+  

@@ -1,0 +1,30 @@
+.check-sidebar {
+    inline-size: 12.25rem;
+    max-block-size: 11.25rem;
+    /* border: 1px solid red; */
+   
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+   
+   
+}
+
+.check-sidebar a {
+    /* border: 1px solid blue; */
+   
+    text-decoration: none;
+    font: var(--body1-regular);
+    color:var(--gray100);
+   
+}
+
+.check-sidebar a i {
+    /* border: 1px solid black; */
+    padding-inline-start: 0.4375rem;
+    color: var(--gray50);
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+}
+
