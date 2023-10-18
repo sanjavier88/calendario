@@ -28,10 +28,12 @@ body {
     background: var(--white);
 }
 
-/* @media (prefers-color-scheme:dark){
+@media (prefers-color-scheme:dark){
    :root {
     --gray50: #ffffff;
     --gray20: #c1c1c1;
     --white:#222222;
+    --gray10: #c1c1c1;
+    --gray30:#c1c1c1;
    } 
-} */
+}
